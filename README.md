@@ -16,7 +16,7 @@ This project identifies and returns a list of outliers in the price data from ea
 
 
 ## Script Explanation 
-
+see the script [here](
 This Python script mainly consists of two core functions.
 - 1st function that, for each file provided, returns exactly 30 consecutive data points starting from a random timestamp within the file.
 - 2nd function that, gets the output from 1st one as a feed and defines and identifies the list of outliers as per the requirement.
@@ -76,6 +76,8 @@ You can install pandas and numpy using the following command in a terminal or co
 - First this script will generate the input_data directory in the current working directory. And will extract all content of the provided zip file into the input_data directory.
 - Then the script will generate the output directory in the current working directory. And will generate a csv(<original_file_name>_outliers.csv) for each file processed in the output directory. If outliers are detected outliers will be display in each CSV file and else "No outliers detected" message will be display in those files. 
 
+## A Capture of the Console
+![Capture_Console](https://github.com/saduni444/Identify-outliers-of-timeseries-data-Stock-price-/blob/main/capture_console.PNG)
 
 ## Notes
 - Delete the input_data folder if re-running the script to avoid duplication.

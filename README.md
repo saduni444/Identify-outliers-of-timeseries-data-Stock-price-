@@ -16,7 +16,8 @@ This project identifies and returns a list of outliers in the price data from ea
 
 
 ## Script Explanation 
-see the script [here](
+see the script [here](https://github.com/saduni444/Identify-outliers-of-timeseries-data-Stock-price-/blob/main/stock_price_data_outliers.py).
+
 This Python script mainly consists of two core functions.
 - 1st function that, for each file provided, returns exactly 30 consecutive data points starting from a random timestamp within the file.
 - 2nd function that, gets the output from 1st one as a feed and defines and identifies the list of outliers as per the requirement.
